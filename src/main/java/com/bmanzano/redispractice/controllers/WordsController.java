@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 
 @RequestMapping("words")
@@ -35,4 +38,11 @@ public class WordsController {
         return wordsRepository.save(words);
     }
 
+    @GetMapping("/all/limit")
+    public Iterable<Words> getAllWithLambda() {
+        Iterable<Words> all = wordsRepository.findAll();
+        List<Words> listAll = new ArrayList<>();
+        all.forEach(listAll::add);
+        return listAll.stream().limit(2).toList();
+    }
 }
