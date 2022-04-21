@@ -10,7 +10,7 @@ import java.io.Serializable;
 @Entity @Table(name = "words_sql")
 @Getter @Setter @NoArgsConstructor
 @Builder @AllArgsConstructor
-public class WordsSql {
+public class WordsSql implements Serializable {
     @Id
     String id;
     String key;

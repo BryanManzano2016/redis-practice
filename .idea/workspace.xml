@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d82b1a-ed1a-48e8-afce-46698e0666da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_6_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/config/CacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/controllers/WordsControllerSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/repositoriesSql/WordsRepositorySql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/repositoriesSql/WordsSql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/service/WordsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c406886c3446d117fcad486b933a48ba1be1ad3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3378079b332bffccc897c64c2c93463f19cf6cf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe8a4eb8b2fec372aaeed91a7f1338d4220768ae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="94d82b1a-ed1a-48e8-afce-46698e0666da" name="Changes" comment="Sql y redis">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/RedisPracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/RedisPracticeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/controllers/WordsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/controllers/WordsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/repositories/Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/repositories/Words.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/repositories/WordsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/repositories/WordsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/repositoriesSql/WordsSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/repositoriesSql/WordsSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/service/WordsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bmanzano/redispractice/service/WordsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "/home/bmanzano/Documents/projects/redis-practice/src/main/java/com/bmanzano/redispractice/repositoriesRedis",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.keymap"
@@ -105,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1650456796623</updated>
     </task>
+    <task id="LOCAL-00001" summary="Sql y redis">
+      <created>1650574086070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650574086070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -121,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Sql y redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sql y redis" />
   </component>
 </project>
